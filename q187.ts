@@ -15,7 +15,9 @@ class DNASeq{
                 this.letters.set( l, 1 );
             }
             else{
-                this.dups.push( l );
+		if( this.dups.includes( l ) === false  ){ 
+		    this.dups.push( l );
+		}       
             }
             start++;
         }
@@ -23,5 +25,5 @@ class DNASeq{
 }
 function findRepeatedDnaSequences(s: string): string[] {
     let dna = new DNASeq( s );
-    return [... new Set(dna.dups)] ;
+    return dna.dups;
 }; 
