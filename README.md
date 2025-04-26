@@ -1,5 +1,5 @@
 <h1 align="center">🚀 My LeetCode Journey</h1>
-<p align="center"><img src="https://img.shields.io/badge/Problems%20Solved-✨%20X%20/%20Y-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-JavaScript-yellow?style=for-the-badge" alt="Language" /> <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
+<p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%2066/3530-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="TypeScript" /> <img src="https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
 <p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br /><i>Click through each problem to see the code, patterns, and explanations!</i></p>
 <hr />
 <table class='table table-striped table-hover'>
@@ -275,6 +275,12 @@
       <td>[Question desciption](https://leetcode.com/problems/reverse-linked-list-ii/description/) </td>
     </tr>
     <tr>
+      <th> 125</th>
+      <td> Valid Palindrome</td>
+      <td> <span class="badge text-bg-success">Easy</span></td>
+      <td>[Question desciption](https://leetcode.com/problems/valid-palindrome/description/) </td>
+    </tr>
+    <tr>
       <th> 136</th>
       <td> Single Number</td>
       <td> <span class="badge text-bg-success">Easy</span></td>
@@ -285,6 +291,12 @@
       <td> Single Number II</td>
       <td> <span class="badge text-bg-warning">Medium</span></td>
       <td>[Question desciption](https://leetcode.com/problems/single-number-ii/description/) </td>
+    </tr>
+    <tr>
+      <th> 141</th>
+      <td> Linked List Cycle</td>
+      <td> <span class="badge text-bg-success">Easy</span></td>
+      <td>[Question desciption](https://leetcode.com/problems/linked-list-cycle/description/) </td>
     </tr>
     <tr>
       <th> 143</th>
