@@ -1,3 +1,53 @@
+
+   class ListNodeGeneric<T> {
+      val: T
+      next: ListNodeGeneric<T> | null
+      constructor(val?: T, next?: ListNodeGeneric<T> | null) {
+          this.val = (val===undefined ? null : val)
+          this.next = (next===undefined ? null : next)
+      }
+  }
+
+abstract class LinkedListGenericToListNode{
+    public static returnListNodeNumber( head : ListNodeGeneric<number> ){ 
+        let h = new ListNode();
+        let rH = h;
+        let tempHead = head;
+        while( tempHead != null ){ 
+            h.val = tempHead.val;
+            if( tempHead.next != null ){ 
+                h.next = new ListNode();
+                h = h.next;
+            }
+            tempHead = tempHead.next;
+        }
+        return rH;   
+    }
+}
+
+abstract class LinkedListToGenericLinkedList {
+    public static returnListNumber ( head: ListNode ){ 
+        let h = new ListNodeGeneric<number>();
+        let rH = h;
+        let tempHead = head;
+        console.log( tempHead );
+        while( tempHead != null ){ 
+            h.val = tempHead.val;
+            if( tempHead.next != null ){ 
+                h.next = new ListNodeGeneric<number>();
+                h = h.next;
+            }
+            tempHead = tempHead.next;
+        }
+        return rH;
+    }
+}
+
+interface NodeHandle< NodeType >{ 
+    nodeValue: NodeType;
+    nextValue: ListNodeGeneric<NodeType>
+}
+
 class LinkedListReverser<NodeType> { 
     public array : Array<NodeHandle<NodeType>>;
     constructor() {

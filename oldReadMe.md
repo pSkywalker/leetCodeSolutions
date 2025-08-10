@@ -1,5 +1,5 @@
 <h1 align="center">🚀 My LeetCode Journey</h1>
-<p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%2066/3586-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="TypeScript" /> <img src="https://img.shields.io/badge/Last%20Updated-June%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
+<p align="center"><img src="https://img.shields.io/badge/Problems%20Solve%2066/3540-blueviolet?style=for-the-badge" alt="Problems Solved" /> <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="TypeScript" /> <img src="https://img.shields.io/badge/Last%20Updated-May%202025-brightgreen?style=for-the-badge" alt="Updated" /></p>
 <p align="center"><b>A visually organized collection of my LeetCode solutions 🚀</b><br /><i>Click through each problem to see the code, patterns, and explanations!</i></p>
 <hr />
 <table class='table table-striped table-hover'>
